@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "oswald", sans-serif;
+    font-size: 18px;
+    background-color: #252422;
+    color: white;
+}
+
+/* Header CSS */
+.header {
+    display: flex;
+    flex: 0 0 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 5px 10px;
+    align-self: center;
+}
+
+.title {
+    font-family: "kanit", sans-serif;
+    font-size: 3.888rem;
+    color: #EB5E28;
+}
+
+.nav-bar ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+li {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px 5px;
+    font-size: 1.38rem;
+}
+
+.nav-link {
+    color: #EB5E28;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* About Us CSS */
+.about-us {
+    display: flex;
+    flex: 0 0 100%;
+    height: 700px;
+    justify-content: center;
+}
+
+.about-us-img {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    position: relative;
+}
+
+.about-us-text {
+    background-color: #252422;
+    font-size: 1.555rem;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    margin-top: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Packages CSS */
+.our-products {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.555rem;
+    color: #EB5E28;
+}
+
+/* The Team CSS */
+.the-team {
+    display: flex;
+    flex: 0 0 100%;
+    height: 700px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.team-background {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: relative;
+    opacity: 0.2;
+}
+
+.team-header {
+    font-size: 3rem;
+    width: 100%;
+    position: absolute;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 5;
+    color: #EB5E28;
+}
+
+h3 {
+    padding: 0 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.555rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.team-img {
+    height: 400px;
+    width: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
